@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(202, 241, 180);
+}
+
+hr {
+    border-style: none;
+    width: 20%;
+    border-top-style: dotted;
+    border-color: rgb(61, 156, 194);
+    border-width: 5px;
+}
+
+h1 {
+    font-family: Copperplate, Fantasy;
+    color: #b30202;
+}
+
+h2 {
+    font-family: Monospace;
+    color: rgba(20, 85, 12, 0.822);
+}
+
+p {
+    font-family: "Lucida Handwriting";
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 50%;
+}
