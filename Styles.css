@@ -77,7 +77,7 @@ a:hover {
 }
 
 .top-h2 {
-  margin-bottom: 150px;
+  margin-bottom: 40px;
 }
 
 .copy-right {
@@ -86,7 +86,7 @@ a:hover {
   padding: 20px 0;
 }
 .top {
-  background-color: rgb(187, 228, 247);
+  background-color: rgb(200, 233, 248);
   position: relative;
   padding-top: 100px;
 }
@@ -104,6 +104,10 @@ a:hover {
   margin: auto;
 }
 
+.mountain {
+  height: auto;
+  width: 50%;
+}
 #top-cloud {
   height: 70px;
   width: 100px;
@@ -117,7 +121,7 @@ a:hover {
   width: 100px;
   position: absolute;
   top: 400px;
-  right: 500px;
+  right: 400px;
 }
 
 #mid-cloud {
