@@ -1,112 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Anas Abdullah</title>
-    <link rel="stylesheet" href="Styles.css" />
-    <link rel="icon" href="images/sunglasses.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&family=Montserrat&family=Sacramento&family=Sofia&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
+    <title>Anas Abdullah</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <!-- Google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+    />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome.min.css" />
+    
   </head>
 
-  <body>
-    <div class="top">
-      <img id="top-cloud" src="images/single-cloud.png " alt="cloud-img" />
+  <body
+    id="page-top"
+    data-bs-spy="scroll"
+    data-bs-target="#mainNav"
+    data-bs-offset="72"
+  >
+    <nav
+      class="my-nav navbar navbar-light navbar-expand-lg fixed-top text-uppercase"
+      id="mainNav"
+    >
 
-      <h1>I'm Anas</h1>
-      <h2 class="top-h2">a programmer</h2>
-      <img id="mid-cloud" src="images/single-cloud.png" alt="cloud-img" />
-
-      <img id="bottom-cloud" src="images/single-cloud.png " alt="cloud-img" />
-
-      <img src="images/mountain.png " alt="mountain-img" class = "mountain" />
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          id="profile-img"
-          src="images/IMG_20210718_202310_311.jpg"
-          alt="Anas Abdullah profile picture"
-        />
-        <h2>Hello.</h2>
-        <p class="Intro">
-          I'm a Software Engineering student in Teshreen University. I'm a
-          junior Web Developer.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="html-tag"
-            src="https://media1.giphy.com/media/QssGEmpkyEOhBCb7e1/200w.webp?cid=ecf05e47a8it2qkg9ihcps8d7t02eue90zy6vi6z9e330870&rid=200w.webp&ct=s"
-            alt="Html-tag"
-          />
-          <h3>Design & Development</h3>
-          <p>
-            I started learning Web Design last year because I wanted to design
-            my own website. And in the future I want to make a career out of it.
-            I'm just in the beginning and it's a long road but I'm really
-            enjoying it.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img
-            class="translation"
-            src="https://media2.giphy.com/media/HVofJOWFXGpDX4xeg1/200w.webp?cid=ecf05e47sy9r1mrv12sc8aq5b3wwpw452sbfuoxxvd4x2mhq&rid=200w.webp&ct=s"
-            alt="translation"
-          />
-          <h3>Translation</h3>
-          <p>
-            I really like learning new languages. English is my second language
-            and I started learning English when I was 6 years old. Over time, I
-            have gained a wealth of experience translating from English to
-            Arabic. Also, I have worked in subtitling and debugging.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Like my application portfolio?</h3>
-        <p class="contact-msg">
-          If you want to design your own website, I can design it for you and I
-          can teach you the basic princeples for web development.
-        </p>
-        <a class="btn" href="mailto:anasabdallah388@gmail.com" target="_blank"
-          >CONTACT ME</a
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class = "logo" src="img/logo.png" alt="logo">
+        </a>
+        <button
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          class="navbar-toggler text-white toggle navbar-toggler-right text-uppercase rounded"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#MySkills"
+                >My skills</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+    <header class="my-header text-center text-white masthead">
+      <div class="container">
+        <img
+          class="img-fluid d-block mx-auto mb-5 profile"
+          src="img/IMG_20221026_235521.jpg"
+        />
+        <h1>Anas Abdullah</h1>
+        <hr class="star-light" />
+        <h2 class="font-weight-light mb-0">
+          Frontend Developer
+        </h2>
+      </div>
+    </header>
+    <section id="MySkills" class="MySkills">
+      <div class="container">
+        <h2 class="text-uppercase text-center mb-5">My Skills</h2>
+        
+        <div class = "row skill-row">
+          <div class="col-sm-6 col-lg-10 mb-5 mt-5 me-auto ms-auto w-75">
+            <img
+              class="w-25 float-start me-5"
+              src="https://media1.giphy.com/media/QssGEmpkyEOhBCb7e1/200w.webp?cid=ecf05e47a8it2qkg9ihcps8d7t02eue90zy6vi6z9e330870&rid=200w.webp&ct=s"
+              alt="Html-tag"
+            />
+            <h3 class = "fs-3">Design</h3>
+            <p class="fs-4">
+              I started learning Web Design last year because I wanted to design
+              my own website. And in the future I want to make a career out of it.
+              Some of my website designs:
+              <ul class = "list-unstyled">
+                <li class = "fs-5">
+                  <a class = "text-decoration-none ex" href="https://anas2001abdullah.github.io/CharityWebsite/" target="_blank">Log-in and Sign-up pages for a charity website</a> 
+                </li>
+                <li class = "fs-5">
+                  <a class = "text-decoration-none ex" href="https://anas2001abdullah.github.io/JoeyDrumGame/" target="_blank">Joey's Drum Game</a>
+                </li>
+                <li class = "fs-5">
+                  <a class = "text-decoration-none ex" href="https://anas2001abdullah.github.io/DiceGame/" target="_blank">Dice Game</a>
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-6 col-lg-10 mt-4 me-auto ms-auto w-75">
+            <img
+              class="w-25 float-end me-5"
+              src="https://media2.giphy.com/media/HVofJOWFXGpDX4xeg1/200w.webp?cid=ecf05e47sy9r1mrv12sc8aq5b3wwpw452sbfuoxxvd4x2mhq&rid=200w.webp&ct=s"
+              alt="translation"
+            />
+            <h3 class = "fs-3">Translation</h3>
+            <p class="fs-4">
+              I really like learning new languages. English is my second language
+              and I started learning English when I was 6 years old. Over time, I
+              have gained a wealth of experience translating from English to
+              Arabic. Also, I have worked in translating subtitles and dubbing scripts.
+            </p>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    <section class="text-white bg-primary mb-0" id="about">
+      <div class="container">
+        <h2 class="text-uppercase text-center text-white mb-5">About</h2>
+        
+        <div class="row">
+          <div class="col-lg-4 ms-auto">
+            <p class="lead">
+              I am a fourth-year student at Faculty of Informatics Engineering and I specialized in software engineering.
+               During my college studies, I learned many useful programming fundamentals. My GPA in college is 93%.
+               
+              
+            </p>
+          </div>
+          <div class="col-lg-4 me-auto">
+            <p class="lead">
+              In 2020 I learned about problem solving and algorthms 
+              and I participated in the Africa and Arab Collegiate Programming Championship (ACPC).
+              Also I have an Advanced course completion certificate from the Higher Institute of Languages In Syria.
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/" target="_blank"
-        >LinkedIn</a
-      >
-      <a
-        class="footer-link"
-        href="https://www.instagram.com/anas_abdallah8643/"
-        target="_blank"
-        >Instagram</a
-      >
-      <a
-        class="footer-link"
-        href="https://www.facebook.com/profile.php?id=100009380154744"
-        target="_blank"
-        >Facebook</a
-      >
-      <p class="copy-right">© 2022 Anas Abdullah.</p>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-uppercase text-center mb-5">
+          Get In Touch
+        </h2>
+        
+        <div class="row">
+          <div class="col-lg-8 mx-auto contact">
+            
+            <h3>Like my application portfolio?</h3>
+            <p class="contact-msg">
+              If you want to design your own website, I can design it for you and I
+              can teach you the basic princeples for web development.
+            </p>
+            <a class="contact-btn" href="mailto:anasabdallah388@gmail.com" target="_blank"
+              >CONTACT ME</a
+            >
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Location</h4>
+            <p>Syria<br />Lattakia</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Around the Web</h4>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-outline-light text-center btn-social rounded-circle"
+                  role="button"
+                  href="https://www.facebook.com/profile.php?id=100009380154744"
+                  target="_blank"
+                  ><i class="fa fa-facebook fa-fw"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-outline-light text-center btn-social rounded-circle"
+                  role="button"
+                  href="https://www.instagram.com/anas_abdallah8643/"
+                  target="_blank"
+                  ><i class="fa fa-instagram fa-fw"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="btn btn-outline-light text-center btn-social rounded-circle"
+                  role="button"
+                  href="https://www.linkedin.com/in/anas-abdullah-65a04a244"
+                  target="_blank"
+                  ><i class="fa fa-linkedin fa-fw"></i
+                ></a>
+              </li>
+             </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">My Phone number</h4>
+            <p class="lead mb-0">
+              <span
+                >+963931437550</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="text-center text-white copyright py-4">
+      <div class="container"><small>© Anas Abdullah 2023</small></div>
     </div>
+    <div class="scroll-to-top position-fixed rounded">
+      <a class="text-center d-block rounded text-white" href="#page-top"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/portfolio.js"></script>
   </body>
 </html>
